@@ -1,5 +1,5 @@
 import { Header } from "../components/Header";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router";
 import "./HomePage.css";
 export function HomePage() {
   return (
@@ -9,7 +9,7 @@ export function HomePage() {
       <h2>What's Happening ?</h2>
       <div className="button-container">
         <button>
-          <Link to="/police">Police (ရဲ)</Link>
+          <NavLink to="/police">Police (ရဲ)</NavLink>
         </button>
         <button>Medical Emergency (ဆေးဘက်ဆိုင်ရာအရေးပေါ်အခြေအနေ)</button>
         <button>Immigration (လူဝင်မှုကြီးကြပ်ရေး)</button>
