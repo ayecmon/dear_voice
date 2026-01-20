@@ -1,18 +1,38 @@
 import { Header } from "../components/Header";
 import { NavLink } from "react-router";
 import "./HomePage.css";
+import PoliceIcon from '../assets/images/icons/police-icon.svg'
+import MediIcon from '../assets/images/icons/medi-icon.svg'
+import ImmigrationIcon from '../assets/images/icons/immigration-icon.svg'
 export function HomePage() {
   return (
     <>
       <title>Dear Voice</title>
-      <Header />
-      <h2>What's Happening ?</h2>
+      {/* <Header /> */}
+      <h2>အရေးပေါ်အကူအညီ</h2>
+      <p>Emergency Assistance</p>
       <div className="button-container">
-        <button>
-          <NavLink to="/police">Police (ရဲ)</NavLink>
+        <button className="button-police">
+          {/* <img className = "police-icon"src={PoliceIcon}></img> */}
+          ရဲ
+          <p>Police</p>
         </button>
-        <button>Medical Emergency (ဆေးဘက်ဆိုင်ရာအရေးပေါ်အခြေအနေ)</button>
-        <button>Immigration (လူဝင်မှုကြီးကြပ်ရေး)</button>
+        <button className="button-med">
+          ဆေးဘက်ဆိုင်ရာအရေးပေါ်အခြေအနေ
+          <p>Medical Emergency</p>
+        </button>
+        <button className = "button-immigration">
+          လူဝင်မှုကြီးကြပ်ရေး
+          <p>Immigration</p>
+        </button>
+      </div>
+      <div className="instruction">
+        <h3>အသုံးပြုနည်း (How To Use)</h3>
+        <ol>
+          <li>အထက်ပါ ခလုတ်များမှ သင့်အခြေအနေနှင့် ကိုက်ညီသော ခလုတ်ကို ရွေးချယ်ပါ။ (Choose the situation above) </li>
+          <li>ကျေးဇူးပြု၍ မြန်မာဘာသာဖြင့် အခြေအနေကို ရှင်းပြပါ၊ ၎င်းကို အင်္ဂလိပ်ဘာသာဖြင့် ဘာသာပြန်ပါမည်။ (Explain the situation in Burmese,and the app will translate)</li>
+          <li>ထိတ်လန့်ကြောက်ရွံ့မှု မဖြစ်ပါနှင့်။(Please don't be scared or panic)</li>
+        </ol>
       </div>
     </>
   );

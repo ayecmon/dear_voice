@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 100%;
 }
-button {
+.button-container .button-police {
   padding-bottom: 10px;
   border-radius: 10px;
   margin-top: 20px;
@@ -11,7 +11,31 @@ button {
   background-color:#2563EB;
   color:white;
 }
-NavLink {
-  background-color:#2563EB;
+
+.button-police .police-icon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-container .button-med {
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color:red;
   color:white;
+}
+
+.button-container .button-immigration {
+  padding-bottom: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color:green;
+  color:white;
+}
+
+ol {
+  text-align: left;
 }

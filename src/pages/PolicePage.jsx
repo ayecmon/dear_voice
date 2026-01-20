@@ -12,6 +12,11 @@ export function PolicePage() {
         ဘာသာပြန်ပေးပါမည်။
       </p>
       <button onClick={() => play("starter.mp3")}>▶ Play</button>
+      <div>
+        <button> English </button>
+        <button> Burmese </button>
+      </div>
+      
     </>
   );
 }
