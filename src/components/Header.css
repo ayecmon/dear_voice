@@ -3,15 +3,17 @@
     color: white;
   
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     height: 60px;
+    padding-top: 10px;
+}
 
-    font-size: 15px;
-    font-weight: 700;
+.back-button {
+   padding: 5px 10px;
 }

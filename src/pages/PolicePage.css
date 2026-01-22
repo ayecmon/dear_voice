@@ -1,0 +1,9 @@
+.button-options {
+    display: flex;
+    width: 100;
+}
+.button-options .option {
+    flex: 1;
+    padding: 15px;
+    box-sizing: border-box;
+}

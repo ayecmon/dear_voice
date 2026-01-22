@@ -1,5 +1,6 @@
 import { Header } from "../components/Header";
 import { NavLink } from "react-router";
+import { IntroPhrase } from "./phrases/IntroPhrase";
 import "./HomePage.css";
 import PoliceIcon from '../assets/images/icons/police-icon.svg'
 import MediIcon from '../assets/images/icons/medi-icon.svg'
@@ -8,9 +9,9 @@ export function HomePage() {
   return (
     <>
       <title>Dear Voice</title>
-      {/* <Header /> */}
       <h2>အရေးပေါ်အကူအညီ</h2>
       <p>Emergency Assistance</p>
+      <IntroPhrase/>
       <div className="button-container">
         <button className="button-police">
           {/* <img className = "police-icon"src={PoliceIcon}></img> */}
