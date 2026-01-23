@@ -5,7 +5,7 @@ import "./PolicePage.css";
 export function PolicePage() {
   return (
     <>
-      <Header />
+      <Header className="police-header"/>
       <Conversation />
     </>
   );

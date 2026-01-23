@@ -1,19 +1,29 @@
 .header {
-    background-color: #2563eb;
-    color: white;
-  
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+  background-color: #2563eb;
+  color: white;
 
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 60px;
-    padding-top: 10px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  padding-top: 10px;
+}
+
+.medic-container .header {
+  background-color: red;
+  color: white;
+}
+
+.immigration-container .header {
+  background-color: green;
+  color: white;
 }
 
 .back-button {
-   padding: 5px 10px;
+  padding: 5px 10px;
 }
