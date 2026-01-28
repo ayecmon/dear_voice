@@ -1,12 +1,13 @@
 import { Header } from "../components/Header";
-import { Conversation } from "./Conversation";
+import { ConversationTabs } from "../components/ConversationTabs";
+import { Translators } from "../components/Translators";
 import "./PolicePage.css";
 
 export function PolicePage() {
   return (
     <>
       <Header className="police-header"/>
-      <Conversation />
+      <ConversationTabs />
     </>
   );
 }

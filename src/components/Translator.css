@@ -1,0 +1,32 @@
+.translators-flex-container {
+    display: flex;
+    width: 100%;
+    bottom:0;
+    left: 10px;
+    right: 10px;
+    position: absolute;
+    height: 20%;
+    justify-content:space-between;
+}
+
+.burmese-translator{
+    flex: 1;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 10px;
+}
+
+.burmese-translator:focus {
+    background-color: #2563eb;
+}
+
+.english-translator{
+    flex: 1;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 10px;
+}
+
+.english-translator:focus{
+    background-color:green;
+}
