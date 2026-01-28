@@ -1,0 +1,32 @@
+.warning-label{
+    position: fixed;
+    top: 70px;
+    background-color: white;
+    left: 400px;
+}
+.button-flex-container {
+  display: flex;
+  width: 100%;
+  position: fixed;
+  justify-content: space-between;
+  top: 130px;
+  left: 0;
+  right: 0;
+}
+
+.button-options {
+  flex: 1;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center; /* Centers vertically */
+  justify-content: center; /* Centers horizontally */
+  border-radius: 0;
+  border: none;
+}
+
+.button-options:focus{
+    outline: 2px solid blue;
+    background-color: #2563eb;
+}
