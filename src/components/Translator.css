@@ -20,6 +20,7 @@
 
 .burmese-translator:focus {
     background-color: #2563eb;
+    color:white;
 }
 
 .english-translator{
@@ -27,10 +28,12 @@
     padding: 10px 70px;
     border: none;
     border-radius: 10px;
+    margin: 5px;
 }
 
 .english-translator:focus{
     background-color:green;
+    color: white;
 }
 
 .instruction {

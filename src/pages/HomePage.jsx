@@ -31,6 +31,7 @@ export function HomePage() {
         <ol>
           <li>အထက်ပါ ခလုတ်များမှ သင့်အခြေအနေနှင့် ကိုက်ညီသော ခလုတ်ကို ရွေးချယ်ပါ။ (Choose the situation above) </li>
           <li>ကျေးဇူးပြု၍ မြန်မာဘာသာဖြင့် အခြေအနေကို ရှင်းပြပါ၊ ၎င်းကို အင်္ဂလိပ်ဘာသာဖြင့် ဘာသာပြန်ပါမည်။ (Explain the situation in Burmese,and the app will translate)</li>
+          <li>အသုံးများသော စကားစုများကိုလည်း အသုံးပြုနိုင်ပါသည်။ (Pre recorded common phrases are also available)</li>
           <li>ထိတ်လန့်ကြောက်ရွံ့မှု မဖြစ်ပါနှင့်။(Please don't be scared or panic)</li>
         </ol>
       </div>
