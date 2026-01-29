@@ -27,6 +27,5 @@
 }
 
 .button-options:focus{
-    outline: 2px solid blue;
     background-color: #2563eb;
 }

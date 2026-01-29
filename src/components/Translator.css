@@ -7,6 +7,7 @@
     position: absolute;
     height: 20%;
     justify-content:space-between;
+    flex-wrap: wrap;
 }
 
 .burmese-translator{
@@ -14,6 +15,7 @@
     padding: 10px 70px;
     border: none;
     border-radius: 10px;
+    margin: 5px;
 }
 
 .burmese-translator:focus {
@@ -29,4 +31,10 @@
 
 .english-translator:focus{
     background-color:green;
+}
+
+.instruction {
+flex-basis: 100%;
+text-align: center;
+margin: 10px 0 0;
 }

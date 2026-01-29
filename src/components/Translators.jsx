@@ -1,6 +1,7 @@
 import "./Translator.css";
 export function Translators(){
     return(
+        <>
         <div className="translators-flex-container">
             <button className="burmese-translator">
                 MM မြန်မာ
@@ -10,6 +11,9 @@ export function Translators(){
                 En English
                 <p>Speak English</p>
             </button>
+            <p className="instruction">ခလုတ်ကိုနှိပ်ပြီး စကားပြောပါ။/Press and speak</p>
         </div>
+       
+        </>
     );
 }
